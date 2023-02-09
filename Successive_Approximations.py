@@ -17,8 +17,8 @@ def Fixed_Point(a,b,e=0.001):
     while condition:
         x1 = g(x0)
         print(f'iterations-{i}- ,g(X{i}:{x0}) = {g(x0)} ')
-        if abs(x1-x0) < e:
-            condition = False
+        if abs(x1-x0) < e: condition = False
+
         x0 = x1
         i = i+1
     
