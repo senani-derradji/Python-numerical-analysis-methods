@@ -15,7 +15,7 @@ def dichotomy(a,b,e):
 		if f(c) < 0: a = c
 		else: b = c
 		if abs(a-b) <= e: condition = False
-		print(f'\033[0;30;41miteration-{n}-\033[0;37;40m\t,\033[0;30;46mc = {c}\033[0;37;40m \t,\033[0;30;45mf(c) = {round(f(c), 5)}\033[0;37;40m')
+		print(f'iteration-{n}- -- c = {c} -- f(c) = {round(f(c), 5)}')
 
 if f(a)*f(b)<0:
 	dichotomy(a,b,e)
